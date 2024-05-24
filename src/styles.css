@@ -1,0 +1,16 @@
+:root {
+    --black: #000;
+    --white: #fff;
+    --brand-black: #201f1e;
+    --brand-primary: #d5a770;
+}
+
+body {
+    background-color: var(--white);
+    color: var(--brand-black);
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+
+    @media (min-width: 1024px) {
+        /* Breakpoint example */
+    }
+}

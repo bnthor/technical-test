@@ -1,16 +1,14 @@
-:root {
-    --black: #000;
-    --white: #fff;
-    --brand-black: #201f1e;
-    --brand-primary: #d5a770;
-}
+@black: #000;
+@white: #fff;
+@brand-black: #201f1e;
+@brand-primary: #d5a770;
 
 body {
-    background-color: var(--white);
-    color: var(--brand-black);
+    background-color: @white;
+    color: @brand-black;
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: 400;
     font-style: normal;
     
     @media (min-width: 1024px) {
